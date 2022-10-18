@@ -1,6 +1,3 @@
-// function capitaliseFirstCharacter(string) {
-//   return string.charAt(0).toUpperCase() + string.slice(1);
-// }
 function createCard(liCard) {
   const ul = document.querySelector("ul");
   liCard.setAttribute("class", "card");
